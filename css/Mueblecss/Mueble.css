@@ -1,0 +1,154 @@
+.Mueble {
+  background-image: url("Mueble.png");
+  position: absolute;
+  left: 124px;
+  top: 0px;
+  width: 1201px;
+  height: 1080px;
+  z-index: 3;
+}
+.HojaChica {
+  background-image: url("HojaChica.png");
+  position: absolute;
+  left: 227px;
+  top: 195px;
+  width: 406px;
+  height: 628px;
+  z-index: 4;
+}
+.HojaChica img:hover{
+  background-image: url(HojaChicac.png);
+  position: absolute;
+  left: -7px;
+  top: -10px;
+}
+.HojaGrade {
+  background-image: url("HojaGrade.png");
+  position: absolute;
+  left: 667px;
+  top: 236px;
+  width: 495px;
+  height: 796px;
+  z-index: 5;
+}
+.FondoM {
+  background-image: url("FondoM.png");
+  position: absolute;
+  left: 1255px;
+  top: 0px;
+  width: 665px;
+  height: 1013px;
+  z-index: 6;
+}
+.Home {
+  background-image: url("Hom.png");
+  position: absolute;
+  left: 1680px;
+  top: 548px;
+  width: 149px;
+  height: 220px;
+  z-index: 6;
+}
+
+.Home img:hover{
+  background-image: url("Homec.png");
+  position: absolute;
+  transition: 1000ms;
+  transform: translate(-7px, -10px);
+  z-index: 6;
+}
+.Proyecto1{
+  background-image: url("Proyecto.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 169px;
+  left: 50px;
+  width: 330px;
+  height: 120px;
+}
+.Proyecto1 img:hover{
+  background-image: url("Proyecto1.png");
+  position: absolute;
+  transition: 300ms;
+  transform: translate(-7px, -10px);
+  
+
+}
+.Proyecto2{
+  background-image: url("jet.gif");
+  position: absolute;
+  top: 279px;
+  left: 50px;
+  width: 307px;
+  height: 60px;
+}
+.Proyecto3{
+  background-image: url("jet.gif");
+  position: absolute;
+  top: 390px;
+  left: 50px;
+  width: 330px;
+  height: 60px;
+}
+
+.Aprendizaje1{
+  background-image: url("jet.gif");
+  position: absolute;
+  top: 230px;
+  left: 50px;
+}
+.Aprendizaje2{
+  background-image: url("jet.gif");
+  position: absolute;
+  top: 350px;
+  left: 50px;
+
+
+}
+.video1{
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  z-index: 7;
+  display: none;
+}
+.cerrar{
+  position: absolute;
+  left: 90%;
+  z-index: 7;
+  display: none;
+}
+.sombreado{
+  position:absolute;
+  top: -20px;
+  left: -5px;
+  display: none;
+
+  z-index: 7;
+
+}
+.video2{
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  z-index: 7;
+  display: none;
+}
+
+
+/*.Proyecto4{
+  background-image: url("jett.gif");
+  position: absolute;
+  top: 390px;
+  left: 50px;
+  width: 330px;
+  height: 60px;
+}
+.Proyecto5{
+  background-image: url("jett.gif");
+  position: absolute;
+  top: 460px;
+  left: 50px;
+  width: 330px;
+  height: 60px;
+}
