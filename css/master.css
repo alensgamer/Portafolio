@@ -1,32 +1,3 @@
-@media screen and (max-width:1366px){
-  .Cuadro img{
-  background-image: url("Cuadr.png");
-  position: absolute;
-  left: 14px;
-  top: 406px;
-  width: 209px;
-  height: 25px;
-  z-index: 7;
-}
-.Cama a{
-  background-image: url("Caa.png");
-  position: absolute;
-  left: 98px;
-  top: 287px;
-  width: 472px;
-  height: 467px;
-  z-index: 9;
-}
-
-
-
-
-
-
-
-
-
-}
 .Cuadro {
   background-image: url("Cuadro.pn");
   position: absolute;
@@ -155,10 +126,7 @@
   height: 281px;
   z-index: 10;
 }
-
-
 .Cama img:hover{
-
   background-image: url("Cama.gif");
 /* #esto no sirve para nada en este hover, supongo que en los demas tampoco, creo que deberia borrarlo para que sea un programa mas limpio*/
   position: relative;
@@ -168,8 +136,6 @@
   height: 237px;
   z-index: 9;
   transition: all 300ms;
-
-
 }
 .Guitarra img:hover{
   background-image: url(Guitarrac.png);
