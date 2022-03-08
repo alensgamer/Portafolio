@@ -203,7 +203,7 @@
   transform: translate(15px, -15px);
 }
 .Litera_y_Cosas_arriba img:hover{
-  background-image: url("Cosas en los mueblesc.png");
+  background-image: url("Cosas en los muebl.png");
   position: absolute;
   transition: 300ms;
   transform: translate(7px, -10px);
