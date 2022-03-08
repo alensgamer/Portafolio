@@ -181,31 +181,31 @@
   transform: translate(7px, -7px);
 }
 .Cosas_en_los_muebles img:hover{
-  background-image: url(Cosas en los muebles.png);
+  background-image: url("Cosas en los muebles.png");
   position: absolute;
   transition: 300ms;
   transform: translate(7px, -7px);
 }
 .Guitarra_y_silla_mamalona img:hover{
-  background-image: url(Guitarra y silla mamalona.png);
+  background-image: url("Guitarra y silla mamalona.png");
   position: absolute;
   transition: 300ms;
   transform: translate(10px, -10px);
 }
 .mesas_ img:hover{
-  background-image: url(mesasc.png);
+  background-image: url("mesasc.png");
   position: absolute;
   transition: 300ms;
   transform: translate(15px, -15px);
 }
 .Litera_y_Cosas_arriba img:hover{
-  background-image: url(Cosas en los mueblesc.png);
+  background-image: url("Cosas en los mueblesc.png");
   position: absolute;
   transition: 300ms;
   transform: translate(7px, -10px);
 }
 .Silla_uwu img:hover{
-  background-image: url(Silla uwu.png);
+  background-image: url("Silla uwu.png");
   position: absolute;
   transition: 300ms;
   transform: translate(7px, -7px);
