@@ -185,7 +185,7 @@
   transform: translate(7px, -7px);
 }
 .Cosas_en_los_muebles img:hover{
-  background-image: url("Cosas en los muebles.png");
+  background-image: url("Cosas en los muebes.png");
   position: absolute;
   transition: 300ms;
   transform: translate(7px, -7px);
