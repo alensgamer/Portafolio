@@ -1,3 +1,1 @@
-function quitar(){
-  
-}
+const @media screen 
