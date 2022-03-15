@@ -1,7 +1,5 @@
-@@media query {
 
-}
-
+@media screen and (min-width:1920px) {
 .Cuadro {
   background-image: url("Cuadro.pn");
   position: absolute;
@@ -214,19 +212,389 @@
   transition: 300ms;
   transform: translate(7px, -7px);
 }
-.Menu {
-  background-image: url("Men.png");
+.Menu{
+  background-image: url("Menu.png");
   position: absolute;
-  left: 1709px;
+  left: 1714px;
   top: 0px;
   width: 211px;
   height: 1080px;
   z-index: 11;
 }
-.Menu img:hover {
+.Menu img{
+    width: 194px;
+    height: 1078px;
+}
+.Menu img:hover{
   background-image: url(Menuc.png);
   position: absolute;
+}
 
+.Boton {
+  background-image: url("Boto.png");
+  position: absolute;
+  left: 1761px;
+  top: 248px;
+  width: 108px;
+  height: 69px;
+  z-index: 12;
+}
+.Boton img:hover{
+  background-image: url("Botonc.png");
+  background-repeat: no-repeat;
+  background-size: 140px, 100px;
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  transition: 300ms;
+  transform: translate(0px, -7px);
+}
+.Boton_2 {
+  background-image: url("wasa.png");
+  position: absolute;
+  left: 1761px;
+  top: 124px;
+  width: 108px;
+  height: 69px;
+  z-index: 13;
+}
+.Boton_2 img:hover{
+  background-image: url("Botonc2.png");
+  background-repeat: no-repeat;
+  background-size: 140px, 100px;
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  transition: 300ms;
+  transform: translate(0px, -7px);
+}
+.Boton_3 {
+  background-image: url("Boton.png");
+  position: absolute;
+  left: 1761px;
+  top: 371px;
+  width: 108px;
+  height: 69px;
+  z-index: 14;
+}
+.Boton_3 img:hover{
+  background-image: url("Botonc3.png");
+  background-repeat: no-repeat;
+  background-size: 140px, 100px;
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  transition: 300ms;
+  transform: translate(0px, -7px);
+}
+.Boton_4 {
+  background-image: url("Boton 4.png");
+  position: absolute;
+  left: 1761px;
+  top: 495px;
+  width: 108px;
+  height: 69px;
+  z-index: 15;
+}
+.Boton_4 img:hover{
+  background-image: url("Botonc4.png");
+  background-repeat: no-repeat;
+  background-size: 140px, 100px;
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  transition: 300ms;
+  transform: translate(0px, -7px);
+}
+}
+@media screen and (min-width:1300px) and (max-width:1400px){
+.Cuadro {
+  background-image: url("Cuadro.pn");
+  position: absolute;
+  left: 19px;
+  top: 572px;
+  width: auto;
+  height: auto;
+  z-index: 7;
+}/* WARNING: no tiene tamaño habra que adivinar */
+.Piano {
+  background-image: url("Piano.pn");
+  position: absolute;
+  left: 0px;
+  top: 591px;
+  width: 223px;
+  height: 66px;
+  z-index: 6;
+}
+.Piano img{
+  width: 223px;
+  height: 66px;
+}
+
+.Mueble {
+  background-image: url("Mueble.pn");
+  position: absolute;
+  left: 14px;
+  top: 610px;
+  width: 447px;
+  height: 254px;
+  z-index: 5;
+}
+.Mueble img{
+  width: 447px;
+  height: 254px;
+}
+.Guitarra {
+  background-image: url("Guitarra.pn"); /*No tiene la imagen bien puesta porque si la pones causa problema en el momento que usas el hover*/
+  position: absolute;
+  left: 60px;
+  top: 78px;
+  width: 40px;
+  height: 272px;
+  z-index: 8;
+}
+.Guitarra img{
+  width: 40px;
+  height: 272px;
+}
+.Cama {
+  background-image: url("Cama.pn");
+  position: absolute;
+  left: 137px;
+  top: 404px;
+  width: 151px;
+  height: 83px;
+  z-index: 9;
+
+
+}
+.Cama img{
+  width: 151px;
+  height: 83px;
+}
+.Muebles {
+  background-image: url("Muebles.pg");
+  position: absolute;
+  left: 598px;
+  top: 662px;
+  width: 140px;
+  height: 85px;
+  z-index: 10;
+}
+.Muebles img{
+  width: 140px;
+  height: 85px;
+}
+.Cosas_en_los_muebles {
+  background-image: url("Cosas en los muebles.ng");
+  position: absolute;
+  left: 597px;
+  top: 621px;
+  width: 132px;
+  height: 34px;
+  z-index: 11;
+}
+.Cosas_en_los_muebles img{
+  width: 132px;
+  height: 34px;
+}
+.Pizarron {
+  background-image: url("Pizarron.png");
+  position: absolute;
+  left: 68px;
+  top: 396px;
+  width: 5px;
+  height: 27px;
+  z-index: 12;
+}
+.Pizarron img{
+  width: 5px;
+  height: 27px;
+}
+.Guitarra_y_silla_mamalona {
+  background-image: url("Guitarra y silla mamalona.pg");
+  position: absolute;
+  left: 724px;
+  top: 382px;
+  width: 92px;
+  height: 281px;
+  z-index: 13;
+}
+.Guitarra_y_silla_mamalona img{
+  width: 92px;
+  height: 281px;
+}
+.Litera_y_Cosas_arriba {
+  background-image: url("Litra y Cosas riba.png");
+  background-size: cover;
+  position: absolute;
+  left: 666px;
+  top: 209px;
+  width: 85px;
+  height: 169px;
+  z-index: 14;
+}
+.Litera_y_Cosas_arriba img{
+  width: 85px;
+  height: 169px;
+}
+.mesas_ {
+  background-image: url("mesa.png");
+  background-size: cover;
+  position: absolute;
+  left: 653px;
+  top: 348px;
+  width: 373px;
+  height: 232px;
+  z-index: 15;
+}
+.mesas_ img{
+  width: 373px;
+  height: 232px;
+}
+.Silla_uwu {
+  background-image: url("Silla uu.png");
+  position: absolute;
+  left: 1333px;
+  top: 784px;
+  width: 163px;
+  height: 152px;
+  z-index: 16;
+}
+.Silla_uwu img{
+  width: 163px;
+  height: 152px;
+}
+.Fondo {
+  background-image: url("Fondo.png");
+  background-size: 1180px;
+  position: absolute;
+  left: 58px;
+  top: 0px;
+  width: 1180px;
+  height: 768px;
+  z-index: 3;
+}
+
+/* WARNING: ya */
+.Ropa {
+  background-image: url("Ropa.png");
+  position: absolute;
+  left: 604px;
+  top: 784px;
+  width: 96px;
+  height: 143px;
+  z-index: 10;
+}
+.Ropa img{
+  width: 96px;
+  height: 143px;
+}
+.Cama img:hover{
+  background-image: url("Cama.gif");
+/* #esto no sirve para nada en este hover, supongo que en los demas tampoco, creo que deberia borrarlo para que sea un programa mas limpio*/
+  position: relative;
+  transition: 300ms;
+  transform: translate(15px, -0px);
+  width: 392px;
+  height: 237px;
+  z-index: 9;
+  transition: all 300ms;
+}
+.Guitarra img:hover{
+  background-image: url(Guitarrac.png);
+  position: absolute;
+  transition: 300ms;
+  transform: translate(15px, -0px);
+  width: 104px;
+  height: 501px;
+  z-index: 8;
+}
+.Cuadro img:hover{
+  background-image: url(Cuadroc.png);
+  position: absolute;
+  transition: 300ms;
+  transform: translate(3px, -5px);
+  width: 295px;
+  height: 33px;
+  z-index: 7;
+}
+.Piano img:hover{
+  background-image: url(Pianoc.png);
+  position: absolute;
+  transition: 300ms;
+  transform: translate(5px, -7px);
+}
+.Mueble img:hover{
+  background-image: url(Mueblec.png);
+  position: absolute;
+  transition: 300ms;
+  transform: translate(7px, -7px);
+  z-index: 10;
+}
+.Ropa img:hover{
+  background-image: url(Ropac.png);
+  position: absolute;
+  transition: 300ms;
+  transform: translate(7px, -7px);
+}
+.Muebles img:hover{
+  background-image: url(mueblesc.png);
+  background-size: cover;
+  position: absolute;
+  transition: 300ms;
+  transform: translate(7px, -7px);
+}
+.Cosas_en_los_muebles img:hover{
+  background-image: url("Cosas en los muebes.png");
+  position: absolute;
+  transition: 300ms;
+  transform: translate(7px, -7px);
+}
+.Guitarra_y_silla_mamalona img:hover{
+  background-image: url("Guitarra y silla mamalonac.png");
+  background-size: cover;
+  position: absolute;
+  transition: 300ms;
+  transform: translate(10px, -10px);
+}
+.mesas_ img:hover{
+  background-image: url("mesasc.png");
+  background-size: cover;
+  position: absolute;
+  transition: 300ms;
+  transform: translate(15px, -15px);
+}
+.Litera_y_Cosas_arriba img:hover{
+  background-image: url("Litera y Cosas arribac.png");
+  background-size: cover;
+  position: absolute;
+  transition: 300ms;
+  transform: translate(7px, -10px);
+}
+.Silla_uwu img:hover{
+  background-image: url("Silla uwu.png");
+  position: absolute;
+  transition: 300ms;
+  transform: translate(7px, -7px);
+}
+.Menu{
+  background-image: url("Men.png");
+  position: absolute;
+  left: 1162px;
+  top: 0px;
+  width: 153px;
+  height: 716px;
+  z-index: 11;
+}
+.Menu img{
+  width: 153px;
+  height: 716px;
+}
+.Menu img:hover {
+  background-image: url("Menuc.png");
+  background-size: cover;
+  position: absolute;
 }
 .Boton {
   background-image: url("Boto.png");
@@ -303,4 +671,5 @@
   height: 100px;
   transition: 300ms;
   transform: translate(0px, -7px);
+}
 }
